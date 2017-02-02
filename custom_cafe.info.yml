@@ -1,0 +1,23 @@
+name: 'Custom Cafe'
+description: 'Custom theme based on the Cafe theme.'
+type: theme
+base theme: cafe
+package: 'Open Restaurant'
+version: 2.0-dev
+core: 8.x
+
+libraries:
+ - custom_cafe/custom
+
+regions:
+  top_left: 'Top left'
+  top_center: 'Top center'
+  top_right: 'Top right'
+  hero: Hero
+  navigation: Navigation
+  content: Content
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_left: 'Footer left'
+  footer_right: 'Footer right'
